@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
-body{
+
+body {
     background-color: #1a6f76;
     width: 100%;
 }
-.nav-bar{
+
+.nav-bar {
     display: flex;
     justify-content: space-around;
     width: 90%;
@@ -16,34 +18,39 @@ body{
     padding: 20px;
     margin-left: 80px;
     margin-right: 120px;
+
 }
-.nav-left{
+
+.nav-left {
     display: flex;
     align-items: center;
     gap: 4px;
     cursor: pointer;
 }
-.btn-1{
+
+.btn-1 {
     margin: 5px;
     padding: 5px 15px;
     border-radius: 5px;
-    background-color:#0b978e ;
+    background-color: #0b978e;
     color: #ffffff;
     border: none;
     cursor: pointer;
 }
-.nav-mid{
+
+.nav-mid {
     margin-left: 7%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
-   color: #ffffff;
-   font-size: larger;
-   font: weight 100px;
-   cursor: pointer;
+    color: #ffffff;
+    font-size: larger;
+    font: weight 100px;
+    cursor: pointer;
 }
-.nav-right{
+
+.nav-right {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -52,55 +59,62 @@ body{
     font: weight 100px;
     cursor: pointer;
 }
-.login-btn{
-margin: 10px 0;
-padding: 15px 25px;
-border-radius: 10px ;
-background-color: transparent;
-border: .5px solid #ffffff;
-font-size: 17px;
-font: weight 100px;
-color: #ffffff;
-cursor: pointer;
+
+.login-btn {
+    margin: 10px 0;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: .5px solid #ffffff;
+    font-size: 17px;
+    font: weight 100px;
+    color: #ffffff;
+    cursor: pointer;
 
 }
-.signUp-btn{
+
+.signUp-btn {
     margin: 10px 0px;
     padding: 15px 25px;
     border: none;
-    color:#ffffff;
+    color: #ffffff;
     font-size: 17px;
     font: weight 90px;
     background-color: transparent;
     cursor: pointer;
 }
-.hero-section{
-     display: flex;
-     width: 100%;
+
+.hero-section {
+    display: flex;
+    width: 100%;
 }
-.hero-left{
+
+.hero-left {
     display: flex;
     justify-content: start;
     width: 30%;
 }
-.hero-left img{
+
+.hero-left img {
     width: 80%;
     height: 60vh;
     object-fit: cover;
 }
-.hero-right{
+
+.hero-right {
     display: flex;
     justify-content: end;
     width: 30%;
 }
-.hero-right img{
+
+.hero-right img {
     width: 75%;
     height: 60vh;
     object-fit: fill;
 
 }
 
-.hero-mid{
+.hero-mid {
     margin-top: 1.5%;
     width: 40%;
     padding: 5px;
@@ -110,38 +124,42 @@ cursor: pointer;
     flex-direction: column;
     align-items: center;
 }
-#live-btn{
-     align-items: center;
-     text-align: center;
-     color: #ffffff;
-     font-size: 17px;
-     font: weight 100px;
-     width: 80%;
-     height: 7vh;
-     margin: 10px ;
-     padding: 5px ;
-     border-radius: 30px;
-     background-color: #0b978e ;
-     border: none;
+
+#live-btn {
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 17px;
+    font: weight 100px;
+    width: 80%;
+    height: 7vh;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #0b978e;
+    border: none;
 }
-#para-head{
+
+#para-head {
     color: #ffffff;
     margin: 0px 15px;
-    padding: 15px; 
+    padding: 15px;
     width: 100%;
     font-size: 60px;
     font-weight: 300;
     text-align: center;
     word-spacing: 2px;
 }
-.hero-mid p{ 
+
+.hero-mid p {
     color: #ffffff;
     font-size: 20px;
     width: 60%;
     font-weight: 300;
-    text-align: center; 
+    text-align: center;
 }
-.log-sign{
+
+.log-sign {
     text-align: center;
     width: 30%;
     height: 7vh;
@@ -152,44 +170,49 @@ cursor: pointer;
     font: weight 90px;
     border: none;
 }
-#cradit-card{
+
+#cradit-card {
     margin-top: 3%;
 }
 
-.hero-section2{
+.hero-section2 {
     margin-top: 5%;
     height: 20vh;
     width: 100%;
 }
-.hero-section2 img{
+
+.hero-section2 img {
     height: 60%;
     width: 100%;
     object-fit: fill;
 }
 
-.container-1{
+.container-1 {
     width: 100%;
     height: 10vh;
     background-color: #ffffff;
     color: black;
     display: flex;
     flex-direction: column;
-    align-items: center;     
+    align-items: center;
 }
-.container-1 h1{
+
+.container-1 h1 {
     margin-top: 5%;
     font-size: 40px;
     text-decoration: none;
     color: rgb(41, 38, 38);
 }
-.container-1 p{
+
+.container-1 p {
     margin-top: 2%;
     width: 22%;
     text-decoration: none;
     text-align: center;
-    color:rgb(40, 37, 37);
+    color: rgb(40, 37, 37);
 }
-.card-head{
+
+.card-head {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -200,27 +223,28 @@ cursor: pointer;
 
 }
 
-#headline{
+#headline {
     margin-top: 6%;
     font-size: 47px;
     width: 50%;
     font-family: sans-serif;
 }
-.card-head p{
-    width: 27%; 
+
+.card-head p {
+    width: 27%;
     font-size: 20px;
-   text-align: center;
+    text-align: center;
 }
 
-.card-box{
+.card-box {
     display: flex;
     justify-content: center;
-    background-color:#ffffff;
+    background-color: #ffffff;
     width: 100%;
     gap: 1.5%;
 }
 
-.card-left{
+.card-left {
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -230,74 +254,84 @@ cursor: pointer;
     gap: 20px;
     overflow: hidden;
     cursor: pointer;
-    
+
 }
-.card-left:hover img{
-     scale: 1.1; 
+
+.card-left:hover img {
+    scale: 1.1;
 }
-.card-right{
+
+.card-right {
     display: flex;
     flex-direction: column;
-     align-items: center;
+    align-items: center;
     width: 60%;
     height: 115vh;
     border-radius: 20px;
 }
-.card-left img{
+
+.card-left img {
     width: 100%;
     height: 70%;
     margin-bottom: 45px;
-    background-color:transparent;
+    background-color: transparent;
     object-fit: fill;
     transition: all ease 1s;
-    
+
 }
-.card-box h3{ 
-      margin-left: 15px;
-      font-size: 20px; 
-      color: #061d29;
+
+.card-box h3 {
+    margin-left: 15px;
+    font-size: 20px;
+    color: #061d29;
 }
-.card-left p{
+
+.card-left p {
     font-size: 16px;
     line-height: 24px;
     margin-left: 15px;
     color: #183547;
 }
-.learn-more{
-  font-weight: bold;
-  line-height: 24px;
+
+.learn-more {
+    font-weight: bold;
+    line-height: 24px;
 }
 
 
-.right-top{
+.right-top {
     display: flex;
     width: 100%;
     height: 100vh;
     border-radius: 30px;
     gap: 4%;
 }
-.box-1{
+
+.box-1 {
     width: 50%;
     height: 55vh;
     border-radius: 15px;
-    background-color:#f5fafe; 
+    background-color: #f5fafe;
     overflow: hidden;
     cursor: pointer;
 }
-.box-1:hover img{
-    scale: 1.1; 
+
+.box-1:hover img {
+    scale: 1.1;
 }
-.card-right img{
+
+.card-right img {
     margin: 5px;
     padding: 7px 10px;
     height: 50%;
     width: 90%;
-    background-color:transparent;
+    background-color: transparent;
     object-fit: fill;
     transition: all ease 1s;
-    
+
 }
-.card-right p{
+
+.card-right p {
     margin: 5px;
     padding: 10px 10px;
     font-size: 16px;
@@ -305,19 +339,20 @@ cursor: pointer;
     color: #183547;
 }
 
-.box-2{
+.box-2 {
     width: 50%;
     height: 55vh;
     border-radius: 15px;
-    background-color:#f5fafe; 
+    background-color: #f5fafe;
     overflow: hidden;
     cursor: pointer;
 }
-.box-2:hover img{
-    scale: 1.1; 
+
+.box-2:hover img {
+    scale: 1.1;
 }
 
-.right-bottom{
+.right-bottom {
     margin-top: 4%;
     display: flex;
     width: 100%;
@@ -325,6 +360,317 @@ cursor: pointer;
     border-radius: 30px;
     gap: 4%;
 }
-.prt2{
+
+.prt2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    columns: black;
+}
+
+.overview {
+    margin: 80px 0px;
+    padding: 10px 35px;
+    height: 10vh;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid rgb(34, 31, 31);
+    font-size: 16px;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+    overflow: hidden;
+}
+
+.overview:hover {
+    background-color: #e1ebf5;
+    transform: scale(1.1);
+}
+
+.homework-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    width: 100%;
+    background-color: white;
+    /* border: 3px solid green; */
+}
+
+.left-side {
+    margin-top: 64px;
+    margin-left: 20px;
+    height: 600px;
+    width: 35%;
+}
+
+.left-side h1 {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.left-side p {
+    width: 100%;
+    margin-top: 10px 0;
+    padding: 10px 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.work-card {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
     height: 20vh;
+    line-height: 24px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    /* border: 3px solid red; */
+}
+
+.work-card:hover {
+    background-color: #e1ebf5;
+    transform: scale(1.1);
+}
+
+.work-card h3 {
+    font-size: 25px;
+    padding: 0 20px;
+}
+
+.work-card p {
+    padding: 0 20px;
+    color: #183547;
+    font-size: 18px;
+}
+
+
+.right-side {
+    margin-top: 64px;
+    height: 600px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.right-side img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.right-side:hover img {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+#card-text {
+    justify-content: end;
+    padding-bottom: 7vh;
+}
+
+.part-4 {
+    height: 95vh;
+    justify-content: center;
+    background-color: #ffff;
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    /* border: 2px solod red; */
+}
+
+.card-item {
+    height: 85vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 15px;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+
+.card-item img {
+    height: 60vh;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.card-item:hover img {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card-item h3 {
+    margin: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #061d29;
+}
+
+.card-item p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 15px;
+    color: #183547;
+}
+
+.card-item p span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#p-1 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.draw-line {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.line {
+    width: 20%;
+    margin-left: 15%;
+    border: 3px solid #1a6f76;
+    margin-bottom: 20vh;
+}
+
+.part-5 {
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 5%;
+}
+
+.left-5 {
+    margin-top: 10vh;
+    width: 50%;
+    height: 90vh;
+    columns: white;
+    /* border: 2px solid black; */
+
+}
+
+.left-5 button {
+    margin: 0px 10px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 20%;
+    height: 6vh;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a6f76;
+    ;
+}
+
+.left-5 h2 {
+    width: 70%;
+    height: 30%;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    margin: 20px 10px;
+    padding: 10px;
+    word-spacing: 5px;
+    /* border: 2px solid red; */
+
+}
+
+.left-5 p {
+    margin: 10px 10px;
+    padding: 10px;
+    color: white;
+    text-align: start;
+}
+
+.left-5 span {
+    margin: 10px 30px;
+    padding: 10px;
+    text-align: start;
+    color: white;
+}
+
+.right-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    width: 40%;
+    height: 90vh;
+}
+
+.right-5 img {
+    width: 80%;
+    height: 96%;
+    object-fit: fill;
+}
+
+.img-7 {
+    width: 40%;
+    height: 20%;
+}
+
+.line-creat {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 4px;
+}
+
+.line-span {
+    width: 17%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgb(173, 190, 214);
+}
+
+.arrow {
+    display: flex;
+    width: 7vw;
+    justify-content: space-between;
+    margin-top: 30px; 
+}
+
+.left-arrow {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(85, 130, 115);
+    cursor: pointer;
+}
+.left-arrow i {
+    color: black
+}
+.right-arrow {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.right-arrow i {
+    color: black
 }
