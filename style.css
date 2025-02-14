@@ -582,7 +582,6 @@ body {
     font-size: 16px;
     font-weight: 500;
     color: #1a6f76;
-    ;
 }
 
 .left-5 h2 {
@@ -684,7 +683,6 @@ body {
     width: 100%;
     gap:2%;
     background-color:#fffded;
-    border: 2px solid red;
 }
 .part-6 img{
     margin-top: 30px;
@@ -761,4 +759,143 @@ body {
     justify-content: center;
     width: 25%;
     height: 80%;
+}
+/* *********************************    Footer - Section    ********************************************* */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color:#fffded;
+    /* border: 2px solid red; */
+}
+.footer-top{
+    display: flex;
+    width: 100%;
+    height:90%;
+    /* border: 2px solid rgb(55, 255, 0); */
+}
+.top-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 120px;
+    width: 26%;
+    height: 97%;
+    /* border: 2px solid rgb(27, 36, 199); */
+}
+.top-right{
+    padding: 20px;
+    display: flex;
+    width: 60%;
+    height: 95%;
+    /* border: 3px solid black; */
+  }
+.img1{
+    margin-top: 45px;
+    width: 50%;
+    height: 7vh;
+    /* border: 20px solid saddlebrown; */
+    object-fit: cover;
+}
+#img1{
+    width: 90%;
+    height: 28vh;
+    padding-bottom: 20px;  
+}
+#img1 img{
+    height: 75px;
+    width: 68px;
+}
+.Company{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+}
+.Platform{
+    width: 30%;
+    height: 100%;
+}
+.Solutions{
+    width: 30%;
+    height: 100%;
+}
+.Resources{
+    width: 30%;
+    height: 100%;
+}
+
+.footer-top h4{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:15px 20px;
+    font-size: 21px;
+    font-weight: 550;
+    line-height: 24px;
+}
+.footer-top p{
+    padding:0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 30px;
+}
+.foter-bottom{
+    display: flex;
+    align-items: start;
+    gap: 60%;
+    height: 10%;
+    /* border: 2px solid rgb(205, 50, 182); */
+}
+
+.footer-icon{
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+/* remember part hover effect */
+.footer-icon i {
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-icon i:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.ri-facebook-circle-line{
+    font-size: 24px;
+}
+.ri-twitter-x-fill{
+    font-size: 24px;
+}
+.ri-youtube-fill{
+    font-size: 24px;
+}
+.ri-instagram-line{
+    font-size: 24px;
+}
+.Copy-right{
+    margin-left: 30px;
+}
+.ai-bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    background-color: #0b978e;
+    height: 7vh;
+    width: 3vw;
+    padding: 8px;
+    border-radius: 35px;
+}
+.ri-chat-smile-fill{
+    font-size: 30px;
+    color: rgb(242, 240, 236)
 }
